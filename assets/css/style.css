@@ -1,0 +1,155 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+
+* {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.nav-link:hover {
+    color: #0d28a6 !important;
+}
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-white bg-opacity-70; /* Hapus efek blur dari latar belakang */
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+.navbar-blur {
+    backdrop-filter: blur(10px);
+}
+
+.bg-hero {
+    background-color: #f1f3ff;
+}
+
+.padding-top {
+    padding-top: 9rem;
+}
+
+.padding-bootom {
+    padding-bottom: 8rem;
+}
+
+.btn-success {
+    background-color: #5cb85f;
+    border-color: #5cb85f;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #8fd08f;
+    border-color: #8fc08f;
+}
+
+.bg-custom {
+    background-color: #cfd4ed;
+}
+
+.bg-like {
+    background-color: #f9cc00;
+}
+
+.bg-price {
+    background-color: #fa2c5a;
+}
+
+.bg-time {
+    background-color: #0d28a6;
+}
+
+.bg-award {
+    background-color: #5cb85f;
+}
+
+.bg-card {
+    background-color: #f1f3ff;
+}
+section.testimonial {
+    width: 100%;
+}
+
+section.testimonial .owl-carousel {
+    width: 100%;
+}
+
+.testimonial h3,
+.testimonial p {
+    text-align: center;
+}
+
+.testimonial .title h3 {
+    margin-top: 7rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.testimonial .title p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 1.5rem;
+}
+
+.testimonial-box {
+    width: 619px;
+    height: 270px;
+    background-color: #f1f3ff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.testimonial-img-profile {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.testimonial-box a {
+    color: var(--alert);
+}
+
+.testimonial-box p {
+    width: 413px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin: 1rem 0 1rem 0;
+}
+
+.testimonial-box h5 {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+}
+
+.text-center button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 10px 0 10px;
+    border: 1px solid #c4c4c4;
+}
+
+.faq .row h2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 1.4rem;
+}
+
+.faq .row p {
+    width: 368px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.accordion-item {
+    margin-bottom: 1.3rem;
+    border-radius: 4px;
+}
+
+.bg-sewa {
+    background-color: #0d28a6;
+}
