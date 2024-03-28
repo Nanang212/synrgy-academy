@@ -9,12 +9,15 @@
 }
 
 .navbar-fixed {
-    @apply fixed z-[9999] bg-white bg-opacity-70; /* Hapus efek blur dari latar belakang */
+    @apply fixed z-[9999] bg-white bg-opacity-80; /* Ubah latar belakang menjadi putih */
     box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
 }
 
-.navbar-blur {
-    backdrop-filter: blur(10px);
+/* .navbar-blur {
+    backdrop-filter: blur(20px);
+} */
+.offcanvas-white {
+    background-color: white;
 }
 
 .bg-hero {
@@ -63,65 +66,32 @@
 .bg-card {
     background-color: #f1f3ff;
 }
-section.testimonial {
-    width: 100%;
-}
-
-section.testimonial .owl-carousel {
-    width: 100%;
-}
-
-.testimonial h3,
-.testimonial p {
-    text-align: center;
-}
-
-.testimonial .title h3 {
-    margin-top: 7rem;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.testimonial .title p {
+.testimonial-description {
     font-size: 14px;
-    font-weight: 300;
-    margin-top: 1.5rem;
+    font-weight: light;
+    color: black;
+    background-color: #f1f3ff;
 }
-
-.testimonial-box {
-    width: 619px;
-    height: 270px;
+.testimonial {
+    background-color: #ffffff;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+.star {
+    color: #f9cc00;
+    font-size: 20px;
+}
+.testimonial .item {
     background-color: #f1f3ff;
     border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 2.5rem;
 }
-
-.testimonial-img-profile {
-    margin-left: 3rem;
-    margin-right: 3rem;
+.owl-theme {
+    height: auto;
 }
-
-.testimonial-box a {
-    color: var(--alert);
-}
-
-.testimonial-box p {
-    width: 413px;
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 300;
-    text-align: left;
-    margin: 1rem 0 1rem 0;
-}
-
-.testimonial-box h5 {
-    font-size: 14px;
-    font-weight: 600;
-    text-align: left;
-    color: #000;
+.testimonial-image {
+    width: 100px;
+    height: 100px;
 }
 
 .text-center button {
@@ -151,5 +121,6 @@ section.testimonial .owl-carousel {
 }
 
 .bg-sewa {
-    background-color: #0d28a6;
+    background-color: #0d28a6 !important;
 }
+
